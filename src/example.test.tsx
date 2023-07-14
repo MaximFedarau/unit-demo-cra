@@ -21,7 +21,6 @@ it('по адресу /about должна открываться страниц�
 
   const { getByTestId } = render(application);
 
-  expect(true).toBe(false);
   expect(getByTestId("page-title").textContent).toEqual("About");
 });
 
