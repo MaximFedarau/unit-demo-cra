@@ -3,6 +3,7 @@ import { test, expect } from "@playwright/test";
 test('по адресу /about открывается страница "о проекте"', async ({ page }) => {
   await page.goto("/about");
 
+  await expect(true).toBe(false);
   await expect(page.getByTestId("page-title")).toHaveText("About");
 });
 
