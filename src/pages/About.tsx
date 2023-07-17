@@ -1,5 +1,5 @@
-import { FC } from "react";
-import { Helmet } from "react-helmet";
+import { FC } from 'react';
+import { Helmet } from 'react-helmet';
 
 export const About: FC = () => {
   return (
@@ -7,8 +7,8 @@ export const About: FC = () => {
       <Helmet>
         <title>About page</title>
       </Helmet>
-      <h1 data-testid="page-title">About</h1>
-      <p>This is an example application. Hello!</p>
+      <h1 data-testid='page-title'>About</h1>
+      <p>This is an example application.</p>
     </>
   );
 };
