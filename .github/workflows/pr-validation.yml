@@ -1,5 +1,5 @@
 name: PR Validation
-# some changes
+
 on: [pull_request]
 
 jobs: 

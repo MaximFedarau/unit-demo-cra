@@ -9,7 +9,7 @@ export const Home: FC = () => {
       <Helmet>
         <title>Home page</title>
       </Helmet>
-      <h1 data-testid="page-title">Home</h1>
+      <h1 data-testid="page-title">Home, new release</h1>
       <p>This is the list.</p>
       <TodoList />
     </>
